@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Figure Picture</title>
+    <style>
+        figure {
+            border: 1px solid #000;
+            padding: 5px;
+            margin: 0;
+        }
+        figcaption {
+            color: #000;
+            font-style: italic;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <figure>
+        <picture>
+            <source media="(min-width: 401px) and (max-width: 800px)" srcset="/img/hipo2.png">
+            <source srcset="/img/hippo-515027_1280.jpg">
+            <img src="/img/hippo-515027_1280.jpg" alt="Es el planeta terra">
+        </picture>
+        <figcaption>Hipopotam</figcaption>
+    </figure>
+    <p> L'element figure s'utilitza per encapsular mitjans com una imatge, juntament amb la seva llegenda, que es defineix utilitzant l'element figcaption.
+        L'element figure ajuda a associar la llegenda amb la imatge i facilita la comprensió del contingut per part dels lectors de pantalla i altres tecnologies d'assistència.</p>
+</body>
+</html>
